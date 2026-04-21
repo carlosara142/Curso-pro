@@ -4,8 +4,8 @@ from calculadora.operaciones import sumar, restar , multiplicar, dividir
 while True:
     opcion = pedir_opcion()
 
-    a = pedir_numero("Ingresa primer numero")
-    b = pedir_numero("Ingresa segundo numero")
+    a = pedir_numero("Ingresa primer numero: ")
+    b = pedir_numero("Ingresa segundo numero: ")
 
     match opcion:
         case "1":

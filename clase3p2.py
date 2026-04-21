@@ -88,8 +88,37 @@
 # print(saludo("Juan")) # Imprime el valor devuelto por la función saludo() con el argumento "Juan"
 # print(saludo("María")) # Imprime el valor devuelto por  la función saludo() con el argumento "María" para ejecutar su código y obtener un saludo personalizado
 
-def suma(a, b):
-    return a + b # La función devuelve la suma de los parámetros a y b  
-resultado = suma(5, 3) +2 # Llama a la función suma() con los argumentos 5 y 3, y almacena el resultado en la variable resultado   
+# def suma(a, b):
+#     return a + b # La función devuelve la suma de los parámetros a y b  
+# resultado = suma(5, 3) +2 # Llama a la función suma() con los argumentos 5 y 3, y almacena el resultado en la variable resultado   
 
-print(resultado+4) # Imprime el valor almacenado en la variable resultado, que es la suma de 5 y 3
+# print(resultado+4) # Imprime el valor almacenado en la variable resultado, que es la suma de 5 y 3
+
+# #si uso print en la funcion el resultado es un string y no puede hacer otra operacionmatematica
+# print ("==========================\n")
+# def dividir(a, b):
+#     try: #hace esto mientras cumpla la condicion
+#         return a / b # La función devuelve el resultado de dividir a entre b
+#     except ZeroDivisionError: # Si se produce un error de división por cero, se ejecuta este bloque de código
+#         return "Error: No se puede dividir por cero" # Devuelve un mensaje de error en caso de división por cero    
+
+# print(dividir(10, 2)) # Imprime el resultado de dividir 10 entre 2 usando la función dividir()
+# print(dividir(10, 0)) # Imprime el resultado de dividir 10 entre 0 usando la función dividir(), lo que genera un mensaje de error
+
+# persona= {
+#             "nombre": "Juamn",
+#             "apellido": "Pérez",
+#             "edad": 30, 
+#             "ciudad":"Buenos Aires"}
+
+# # try:
+# #     clave = input("Ingrese la clave que desea consultar (nombre, apellido, edad, ciudad): ") # Solicita al usuario que ingrese una clave para consultar en el diccionario persona
+# #     print(persona[clave]) # Imprime el valor asociado a la clave ingresada por el usuario en el diccionario persona
+# # except KeyError: # Si se produce un error de clave no encontrada, se ejecuta este bloque de código
+# #     print("Error: La clave ingresada no existe en el diccionario") # Devuelve un mensaje de error en caso de que la clave ingresada no exista en el diccionario persona 
+
+# # try:
+# #     edad= int(input("Ingrese su edad: ")) # Solicita al usuario que ingrese su edad y la convierte a un número entero
+# #     print(f"Su edad es: {edad}") # Imprime la edad ingresada por
+# # except ValueError: # Si se produce un error de valor no válido, se ejecuta este bloque de código
+# #     print("Error: Por favor, ingrese un número válido para la edad") # Devuelve un mensaje de error en caso de que el usuario ingrese un valor no numérico para la edad
