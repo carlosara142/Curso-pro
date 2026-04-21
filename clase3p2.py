@@ -64,12 +64,32 @@
 #             "edad": 25, 
 #             "ciudad":"Córdoba"},
 #             ]
-persona= {
-            "nombre": "Juamn",
-            "apellido": "Pérez",
-            "edad": 30, 
-            "ciudad":"Buenos Aires"}
+# persona= {
+#             "nombre": "Juamn",
+#             "apellido": "Pérez",
+#             "edad": 30, 
+#             "ciudad":"Buenos Aires"}
 
-for i in persona:
-    print(persona[i]) # Imprime los valores del diccionario 
-    
+# for i in persona:
+#     print(persona[i]) # Imprime los valores del diccionario 
+
+#Funciones
+
+# def saludo():
+#     return "¡Hola! Bienvenido a la clase de Python" # La función devuelve un mensaje de saludo  
+#     print("¡Hola! Bienvenido a la clase de Python") 
+
+# print(saludo()) # Imprime el valor devuelto por la función saludo()
+# saludo() # Llamada a la función saludo() para ejecutar su código
+
+# def saludo(nombre):
+#     return f"¡Hola {nombre}! Bienvenido a la clase de Python" # La función devuelve un mensaje de saludo personalizado usando el parámetro nombre   
+
+# print(saludo("Juan")) # Imprime el valor devuelto por la función saludo() con el argumento "Juan"
+# print(saludo("María")) # Imprime el valor devuelto por  la función saludo() con el argumento "María" para ejecutar su código y obtener un saludo personalizado
+
+def suma(a, b):
+    return a + b # La función devuelve la suma de los parámetros a y b  
+resultado = suma(5, 3) +2 # Llama a la función suma() con los argumentos 5 y 3, y almacena el resultado en la variable resultado   
+
+print(resultado+4) # Imprime el valor almacenado en la variable resultado, que es la suma de 5 y 3
