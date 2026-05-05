@@ -14,3 +14,7 @@ def test_multiplicar (numeros):
 def test_dividir (numeros):
     a,b = numeros
     assert dividir(a,b) == 5
+
+def test_restar (numeros):
+    a,b = numeros
+    assert restar(a,b) == 8
