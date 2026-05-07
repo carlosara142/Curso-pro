@@ -1,4 +1,4 @@
-from calculadora.utility import pedir_numero, pedir_opcion
+from calculadora.utils import pedir_numero, pedir_opcion
 from calculadora.operaciones import sumar, restar , multiplicar, dividir
 
 while True:
